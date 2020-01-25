@@ -2,7 +2,7 @@
     <footer class="sticky-footer" style="background:#222;">
         <div class="container my-auto">
             <div class="copyright text-right my-auto" style="font-size:20px;">
-                <span class="text-light">Copyright &copy; Your Website 2019</span>
+                <span class="text-light">Copyright &copy; Commerce.Id <?= date('Y')?></span>
             </div>
         </div>
     </footer>

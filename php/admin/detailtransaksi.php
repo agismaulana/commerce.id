@@ -28,23 +28,23 @@ include "../logic/logictransaksi2.php";
             <div class="card mb-3" style="max-width: 1040px;">
             <div class="row no-gutters">
                 <div class="col-md-4">
-                <img src="../../img/produk/<?= $fetchproduk['image'];?>" class="card-img" style="width:100%;">
+                <img src="../../img/produk/<?= $transaksi['image'];?>" class="card-img" style="width:100%;">
                 </div>
                 <div class="col-md-8">
                 <div class="card-body">
-                    <h1 class="card-title"><?= $fetchproduk['nama_produk']?></h1>
+                    <h1 class="card-title"><?= $transaksi['nama_produk']?></h1>
                     <hr>
-                    <h2 class="card-text"><?= $fetchproduk['nama_user'];?></h2>
+                    <h2 class="card-text"><?= $transaksi['nama_user'];?></h2>
                     <hr>
                     <div class="card-text row" style="font-size:20px;">
-                        <div class="col-md">Jumlah <?= $fetchproduk['jumlah']?></div>
-                        <div class="col-md">Total <?= $fetchproduk['total'];?></div>
+                        <div class="col-md">Jumlah <?= $transaksi['jumlah']?></div>
+                        <div class="col-md">Total <?= $transaksi['total'];?></div>
                     </div>
                     <hr>
-                    <div class="card-text" style="font-size:20px;"><?= $fetchproduk['status']?></div>
+                    <div class="card-text" style="font-size:20px;"><?= $transaksi['status']?></div>
                     <hr>
-                    <?php if($fetchproduk['status'] == 2) : ?>
-                    <a class="btn btn-primary" href="konfirmasiadmin.php?id=<?= $fetchproduk['id_transaksi'];?>" onclick="return confirm('yakin');">Konfirmasi Admin</a>
+                    <?php if($transaksi['id_status'] == 2) : ?>
+                        <a class="btn btn-primary" href="konfirmasiadmin.php?id=<?= $transaksi['id_transaksi'];?>" onclick="return confirm('yakin');">Konfirmasi Admin</a>
                     <?php endif; ?>
                 </div>
                 </div>

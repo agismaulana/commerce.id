@@ -39,7 +39,7 @@
                   <hr>
                   <div class="card-button">
                     <a href="../index/hapuspesanan.php?id=<?= $pesan['id_pesan'];?>" class="btn btn-danger">Hapus</a>
-                    <a href="../index/pembayaran.php?id=<?= $pesan['id_pesan'];?>" class="btn btn-primary">Kirim</a>
+                    <a href="../index/pembayaran.php?id=<?= $pesan['id_pesan'];?>" class="btn btn-primary">Bayar</a>
                   </div>
                 </div>
               </div>
