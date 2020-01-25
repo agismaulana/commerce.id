@@ -48,7 +48,7 @@ include "../logic/logicuser.php";
                             <td><img src="../../img/profile/<?= $uf['image'];?>" style="width:100px;heigth:20px;"></td>
                             <td><?= $uf["namarole"];?></td>
                             <td>
-                            <a class="btn btn-danger" href="hapususer.php">hapus</a>
+                            <a class="btn btn-danger" href="hapususer.php?id=<?= $uf['id'];?>" onclick="return confirm('yakin');">hapus</a>
                             </td>
                         </tr>
                     <?php } ?>
