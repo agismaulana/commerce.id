@@ -50,6 +50,7 @@ include "../logic/logicproduk.php";
                             <td><?= $produk["harga"];?></td>
                             <td><?= $produk['stok']?></td>
                             <td>
+                            <a class="btn btn-warning" href="ubahproduk.php?id=<?= $produk['id'];?>">Edit</a>
                             <a class="btn btn-danger" href="hapusproduk.php?id=<?= $produk['id'];?>" onclick="return confirm('yakin');">hapus</a>
                             </td>
                         </tr>
