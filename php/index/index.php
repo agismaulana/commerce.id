@@ -1,6 +1,6 @@
   <?php 
 
-  $title = "Index";
+  $title = "index";
   include "../logic/logickoneksi.php";
   include "../template/templateheader.php";
   // if(!isset($_SESSION['login'])){

@@ -36,7 +36,6 @@ include "../logic/logicpesanproduk.php";
               <select name="pembayaran" class="custom-select" id="kategori">
                 <option selected>Pilih Metode Pembayaran</option>
                 <option value="1">Transfer Bank</option>
-                <option value="1">COD</option>
               </select>
             </div>
             <button name="tombol" class="btn btn-danger">Pesan</button>
