@@ -43,7 +43,9 @@ include "../logic/logictransaksi2.php";
                     <hr>
                     <div class="card-text" style="font-size:20px;"><?= $fetchproduk['status']?></div>
                     <hr>
+                    <?php if($fetchproduk['status'] == 2) : ?>
                     <a class="btn btn-primary" href="konfirmasiadmin.php?id=<?= $fetchproduk['id_transaksi'];?>" onclick="return confirm('yakin');">Konfirmasi Admin</a>
+                    <?php endif; ?>
                 </div>
                 </div>
             </div>
