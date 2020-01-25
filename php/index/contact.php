@@ -27,14 +27,14 @@ include "../template/templatenav.php";
             <div class="col-md text-center">
                 <img src="../../img/contact/agis.jpg" class="img-thumbnail" style="width:100%;height:70%;border-radius:50%;">
                 <div class="text-dark">
-                    <h1>Abdul Malik Ramdani</h1>
+                    <h1>Agis Maulana</h1>
                     <P>Project Leader</P>
                 </div>
             </div>
             <div class="col-md text-center">
                 <img src="../../img/contact/agis.jpg" class="img-thumbnail" style="width:100%;height:70%;border-radius:50%;">
                 <div class="text-dark">
-                    <h1>Agis Maulana</h1>
+                    <h1>Abdul Malik Ramdani</h1>
                     <P>It Support</P>
                 </div>
             </div>
