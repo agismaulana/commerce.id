@@ -5,7 +5,7 @@ if(!isset($_SESSION['login'])){
     header("Location: ../index.php");
 }
 include "../template/templatesidebar.php";
-include "../logic/logictransaksi.php";
+include "../logic/logictransaksi2.php";
 ?>
 
 
