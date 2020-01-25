@@ -8,9 +8,9 @@ if(isset($_POST['tombol'])){
     $address = htmlspecialchars($_POST['address']);
     $image = 'default.jpeg';
     $roleid = 2;
-    $saldo = 0;
     if($repeat == $password){
-        mysqli_query($conn,"INSERT INTO user VALUES ('','$name','$email','$password','$image','$roleid','$address','$saldo')");
+        mysqli_query($conn,"INSERT INTO user VALUES ('','$name','$email','$password','$image','$roleid','$address')");
+        header('Location:login.php');
     }else { 
         header('Location:register.php');    
     }
