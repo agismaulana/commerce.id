@@ -28,7 +28,7 @@ if(isset($_POST['tombol'])){
         $status = 2;
         $tanggal = date('Y-m-d');
         $query = mysqli_query($conn,"INSERT INTO transaksi VALUES ('','$produkid','$userid','$jumlah','$total','$status','$fileName','$tanggal')");
-        mysqli_query($conn,"DELETE FROM pesan WHERE id_pesan = '$id'");
+        mysqli_query($conn,"DELETE FROM pesan WHERE id = '$id'");
     } else {
     }
 }
