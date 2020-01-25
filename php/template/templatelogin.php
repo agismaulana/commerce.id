@@ -47,7 +47,7 @@
                     <?php if(isset($_SESSION['login'])) : ?>
                     <a class="nav-link" href="../index/keranjang.php" style="color:#fff;"> <i class="fas fa-cart-arrow-down"><sup class="badge" style="background:#fe9126;"><?= $jumlahKeranjangs?></sup></i> </a>
                     <?php else : ?>
-                    <a class="nav-link" href="../index/keranjang.php" style="color:#fff;"> <i class="fas fa-cart-arrow-down"><sup class="badge badge-danger">0</sup></i> </a>
+                    <a class="nav-link" href="../index/keranjang.php" style="color:#fff;"> <i class="fas fa-cart-arrow-down"><sup class="badge" style="background:#fe9612;">0</sup></i> </a>
                     <?php endif;?>
                 </li>
             </ul>
