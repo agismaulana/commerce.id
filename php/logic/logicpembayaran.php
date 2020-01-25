@@ -12,6 +12,7 @@ if(isset($_POST['tombol'])){
         $id = $_GET['id'];  
         $produkid = $pesan['id'];
         $userid = $pesan['user_id'];
+        $stok = $pesan['stok'];
         if (in_array($fileExtension, $allowedfileExtensions)) {
             move_uploaded_file($fileTmpPath, '../../img/pembayaran/'.$fileName);
         } else {
@@ -19,6 +20,11 @@ if(isset($_POST['tombol'])){
         }
         $total = $pesan['total'];
         $jumlah = $pesan['jumlah'];
+        if($stok > 0){
+            $stokAkhir = $stok - $jumlah;
+        } else {
+            echo "<script>alert('Stok Telah Habis')</script>";
+        }
         $status = 2;
         $tanggal = date('Y-m-d');
         $query = mysqli_query($conn,"INSERT INTO transaksi VALUES ('','$produkid','$userid','$jumlah','$total','$status','$fileName','$tanggal')");
