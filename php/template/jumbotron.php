@@ -72,6 +72,11 @@
                         </i>
                     </li>
                     <?php endif;?>
+                    <li>
+                        <?php 
+                            include "../template/social.php";
+                        ?>
+                    </li>
                 </ul>
             </div>
             <div class="clearfix"> </div>
