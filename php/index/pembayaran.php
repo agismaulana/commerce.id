@@ -24,6 +24,7 @@
             <p>Setelah Itu Tunggu Konfirmasi Admin</p>
         </div>
 
+        <div class="" id="content"></div>
         <?php 
         
         include "../template/footer.php";
