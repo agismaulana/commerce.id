@@ -33,6 +33,9 @@
               <div class="col-md">Deskripsi <br><?= $produk['deskripsi']?></div>
             </div>
             <hr>
+            <div>
+              <a class="btn btn-primary" href="pesan.php?id=<?= $produk['id']?>">add to Cart</a>
+            </div>
           </div>
         </div>
       </div>
