@@ -1,5 +1,5 @@
 <?php 
-    
+    //tanpa session
     function no_session(){
         include "../logic/logickoneksi.php";
         if(!isset($_SESSION['login'])){
@@ -15,6 +15,7 @@
         }
     }
 
+    // ada session
     function session(){
         include "../logic/logickoneksi.php";
         $email = $_SESSION['login'];

@@ -1,4 +1,6 @@
 <?php 
+
+// Logic Login
 if(isset($_POST['tombol'])){
     $email = htmlspecialchars($_POST['email']);
     $password = $_POST['password'];

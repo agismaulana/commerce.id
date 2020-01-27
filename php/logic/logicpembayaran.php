@@ -1,6 +1,7 @@
 <?php 
 
 if(isset($_POST['tombol'])){
+    // Konfigurasi File
     $fileTmpPath = $_FILES['file']['tmp_name'];
     $fileName = $_FILES['file']['name'];
     $fileSize = $_FILES['file']['size'];
@@ -8,6 +9,7 @@ if(isset($_POST['tombol'])){
     $fileNameCmps = explode(".", $fileName);
     $fileExtension = strtolower(end($fileNameCmps));
     $allowedfileExtensions = array('jpg', 'gif', 'png', 'jpeg');
+    //Jika File Ada
     if($fileName){
         $id = $_GET['id'];  
         $produkid = $pesan['id'];
