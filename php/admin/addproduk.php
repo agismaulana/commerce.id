@@ -1,5 +1,4 @@
 <?php
-session_start();
 $title = 'Admin';
 include "../template/templateheaderadmin.php";
 if(!isset($_SESSION['login'])){
@@ -7,10 +6,23 @@ if(!isset($_SESSION['login'])){
 }
 include "../template/templatesidebar.php";
 include "../logic/logicaddproduk.php";
-include "../template/navbar.php"
 ?>
+        <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        
+        <?php
+
+        include "../template/navbar.php"
+
+        ?>
+
         <!-- Begin Page Content -->
         <div class="container-fluid">
+
 
           <!-- Page Heading -->
           <h1 class="h3 mb-4 text-center text-gray-800" style="font-size:40px;">Tambah Produk</h1>

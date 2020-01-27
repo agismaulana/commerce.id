@@ -5,10 +5,10 @@
                 <h3 style="color:#fff;font-weight:bold;">Contact</h3>
                 <ul class="text-left" style="list-style:none;">
                     <li>
-                        <i class="">Kp.Ciledug Kec Cikeusal Kab Tasikmalaya</span></i>
+                        <i class="">Kp.Ciledug Kec TanjungJaya Kab Tasikmalaya</span></i>
                     </li>
                     <li>
-                        <i class="fas fa-phone" aria-hidden="true"> ( +62 ) 852 208 938 28</i>
+                        <i class="fas fa-phone" aria-hidden="true"> ( +62 ) 852-908-788-89</i>
                     </li>
                 </ul>
             </div>
